@@ -1,7 +1,9 @@
 import "./App.css";
 
 function App() {
-  function fechtData() {}
+  function fechtData() {
+    console.log("fetching data");
+  }
   return (
     <>
       <main>
