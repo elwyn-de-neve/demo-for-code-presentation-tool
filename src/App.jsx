@@ -9,6 +9,7 @@ function App() {
     <>
       <main>
         {/* This will call the function immediately */}
+        {/*  Use a callback function to prevent this */}
         <button onClick={fechtData("data")}>Fetch Data</button>
       </main>
     </>
