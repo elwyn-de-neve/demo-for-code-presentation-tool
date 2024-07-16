@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <main>
-        <button onClick={fechtData}>Fetch Data</button>
+        <button onClick={fechtData("data")}>Fetch Data</button>
       </main>
     </>
   );
