@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <main>
+        // This will call the function immediately
         <button onClick={fechtData("data")}>Fetch Data</button>
       </main>
     </>
